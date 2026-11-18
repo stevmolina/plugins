@@ -1,0 +1,19 @@
+{
+  "name": "showup",
+  "displayName": "Show Up",
+  "version": "0.3.0",
+  "description": "Capture real work, draft personal content, publish approved posts, and learn from the results.",
+  "author": {
+    "name": "Steven Molina"
+  },
+  "homepage": "https://github.com/stevmolina/plugins/tree/main/plugins/showup",
+  "repository": "https://github.com/stevmolina/plugins",
+  "keywords": [
+    "social-media",
+    "writing",
+    "voice",
+    "notion",
+    "typefully"
+  ],
+  "category": "Productivity"
+}
