@@ -1,0 +1,22 @@
+{
+  "name": "stevmolina-plugins",
+  "description": "Steven's small, focused agent plugins.",
+  "owner": {
+    "name": "Steven Molina",
+    "url": "https://github.com/stevmolina"
+  },
+  "plugins": [
+    {
+      "name": "steven-core",
+      "source": "./plugins/steven-core",
+      "description": "Shared rules for Steven's other plugins: approval before anything is published, sent, or paid, and Steven's writing voice.",
+      "category": "productivity"
+    },
+    {
+      "name": "showup",
+      "source": "./plugins/showup",
+      "description": "Capture real work, draft personal content, publish approved posts, and learn from the results.",
+      "category": "productivity"
+    }
+  ]
+}

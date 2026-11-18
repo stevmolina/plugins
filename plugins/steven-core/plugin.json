@@ -1,0 +1,37 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "steven-core",
+  "version": "0.1.0",
+  "description": "Shared rules for Steven's other plugins: approval before anything is published, sent, or paid, and Steven's writing voice.",
+  "author": {
+    "name": "Steven Molina",
+    "url": "https://github.com/stevmolina"
+  },
+  "homepage": "https://github.com/stevmolina/plugins/tree/main/plugins/steven-core",
+  "repository": "https://github.com/stevmolina/plugins",
+  "keywords": [
+    "approval",
+    "voice",
+    "writing"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Steven Core",
+        "shortDescription": "Approval gate and Steven's writing voice.",
+        "longDescription": "Two small skills the other plugins load instead of repeating them: an approval gate for anything that leaves the chat or costs money, and the rules for writing like Steven.",
+        "developerName": "Steven Molina",
+        "category": "Productivity",
+        "websiteURL": "https://github.com/stevmolina/plugins/tree/main/plugins/steven-core",
+        "capabilities": [
+          "Approval gate",
+          "Voice rules"
+        ],
+        "defaultPrompt": [
+          "Rewrite this in my voice.",
+          "Check this before I post it."
+        ]
+      }
+    }
+  }
+}

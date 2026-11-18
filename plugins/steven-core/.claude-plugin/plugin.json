@@ -1,0 +1,16 @@
+{
+  "name": "steven-core",
+  "version": "0.1.0",
+  "description": "Shared rules for Steven's other plugins: approval before anything is published, sent, or paid, and Steven's writing voice.",
+  "author": {
+    "name": "Steven Molina",
+    "url": "https://github.com/stevmolina"
+  },
+  "homepage": "https://github.com/stevmolina/plugins/tree/main/plugins/steven-core",
+  "repository": "https://github.com/stevmolina/plugins",
+  "keywords": [
+    "approval",
+    "voice",
+    "writing"
+  ]
+}
