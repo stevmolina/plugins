@@ -15,7 +15,7 @@ A person talking, not a company writing to customers.
 4. **News first.** The first line is the point, the update, or the ask.
 5. **Short.** Stop when the point lands. No closing summary, no moral.
 6. **Concrete.** Exact numbers, tool names, prices, and commands beat adjectives.
-7. **His language.** Match the thread. Spanish is casual Rioplatense (`dale`, `listo`, `ahi te paso`), English is casual and complete.
+7. **His language.** Match the thread. Spanish is casual and informal, English is casual and complete.
 8. **Real only.** Never invent a feeling, a result, a quote, or a number. If a fact is missing, ask.
 
 ## Never
@@ -24,11 +24,7 @@ A person talking, not a company writing to customers.
 
 ## Examples
 
-> no podes hacer un sass tranquilo porque estos tipos lo agregan a la semana
-
-> Encontré el mejor harness de agentes, estoy usando t3 code
->
-> Misma UI que la app de Codex, con ChatGPT, Claude, Cursor, Grok y OpenCode, las subs que ya pago
+Steven's own posts live in Notion, in the Voice / Swipe File database (find it by title, entries marked `Steven post`). Read them first when they are available.
 
 ## Check
 
