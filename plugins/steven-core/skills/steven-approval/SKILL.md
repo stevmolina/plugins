@@ -16,7 +16,7 @@ Nothing goes out, and nothing gets paid, without Steven's explicit yes on the ex
 ## Steps
 
 1. Draft in the chat. Do not create drafts inside Gmail, Slack, Notion, or a publisher unless Steven asked for that exact write.
-2. Show the exact text, the destination (account, channel, or person), and the action (post, schedule, send, pay). For money, show the price and what it buys.
+2. Show the exact text, any image or video attached, the destination (account, channel, or person), and the action (post, schedule, send, pay). For a schedule, show the date, time, and timezone. For money, show the price and what it buys.
 3. Wait for an explicit yes, such as "yes", "dale", "publicalo", "send it". A yes to an earlier version, or to a different destination, does not count.
 4. Do exactly what was approved, once. Any edit after the yes needs a new yes.
 5. Verify the result (post URL, message link, receipt) and report it.

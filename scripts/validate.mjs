@@ -45,7 +45,7 @@ for (const d of dirs) {
   for (const s of fs.existsSync(skillsDir) ? fs.readdirSync(skillsDir) : []) {
     const file = path.join(skillsDir, s, "SKILL.md");
     if (!fs.existsSync(file)) { fail(`${base}/skills/${s}: no SKILL.md`); continue; }
-    const fm = fs.readFileSync(file, "utf8").match(/^---\n([\s\S]*?)\n---/);
+    const fm = fs.readFileSync(file, "utf8").match(/^---\r?\n([\s\S]*?)\r?\n---/);
     if (!fm) { fail(`${base}/skills/${s}/SKILL.md: no frontmatter`); continue; }
     if (!new RegExp(`^name: ${s}$`, "m").test(fm[1])) fail(`${base}/skills/${s}/SKILL.md: name should be ${s}`);
     if (!/^description: \S/m.test(fm[1])) fail(`${base}/skills/${s}/SKILL.md: missing description`);

@@ -38,16 +38,15 @@ Cursor has no command to add a marketplace from a link on personal plans, so pic
 
 - **In the app:** open Customize, go to Plugins, click Add Marketplace, choose Import from GitHub and paste `https://github.com/stevmolina/plugins`. Then install the plugins you want.
 - **Teams plan:** an admin imports the same link in Dashboard, Plugins & MCPs, Team Marketplaces, Import from Repo.
-- **Local, any plan:** clone and link the plugin folders, then run Developer: Reload Window.
+- **Local, any plan:** copy the plugin folders into Cursor's local plugin folder, then run Developer: Reload Window. Cursor skips symlinks that point outside that folder, so copy instead of linking.
 
   ```bash
   git clone https://github.com/stevmolina/plugins ~/src/stevmolina-plugins
   mkdir -p ~/.cursor/plugins/local
-  ln -s ~/src/stevmolina-plugins/plugins/steven-core ~/.cursor/plugins/local/steven-core
-  ln -s ~/src/stevmolina-plugins/plugins/showup ~/.cursor/plugins/local/showup
+  cp -R ~/src/stevmolina-plugins/plugins/steven-core ~/src/stevmolina-plugins/plugins/showup ~/.cursor/plugins/local/
   ```
 
-  `git pull` in the clone updates them.
+  To update, `git pull` in the clone, run the same `cp -R` again and reload.
 
 ### Grok Bot and other agents
 

@@ -14,11 +14,11 @@ Load the `steven-approval` skill from the `steven-core` plugin and read [publish
 ## Workflow
 
 1. Resolve the exact Typefully social set, account, and platform from live connected-account data.
-2. Preserve the approved copy. Make platform changes only when Steven requested adaptation or the destination requires one.
+2. Preserve the approved copy. Make platform changes only when Steven requested adaptation or the destination requires one, and get his yes on the exact adapted copy before the write.
 3. Apply the authorization boundary in the publishing reference.
 4. Perform the requested write once. If the service rejects it, inspect the error and use a documented fallback only when the requested outcome permits that destination.
 5. Fetch or inspect the resulting item to verify account, content, status, and timing.
-6. When the post belongs to a Notion content record, fetch the live Content Inbox schema and record the verified Typefully item ID, review URL, platform, final approved copy, status, and scheduled or published time.
+6. When the post belongs to a Notion content record, fetch the live Content Inbox schema and record the verified Typefully item ID, review URL, platform, final approved copy, status, and scheduled or published time. Record adapted copy as approved only after that yes. If the Notion write fails, report the item ID, and on retry reuse that item instead of creating another one.
 
 ## Done
 
